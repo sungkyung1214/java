@@ -1,0 +1,21 @@
+package homework.ict.edu;
+
+public class Cao {
+public static void main(String[] args) {
+	// 카페모카 6,500이다.
+			// 친구와 둘이서 15,000원을 내고 주문했다
+			// 잔돈은 얼마인가?(단, 부가세 10%포함)
+	int res = 0;
+	int money = 15000;
+	int dan = 6500;
+	int ren =2;
+	int total = dan*ren;
+	int vat = (int)(total*0.1); //1300
+	
+	int pay = total + vat;
+	System.out.println(pay);
+	res = money -pay;
+	
+	
+}
+}

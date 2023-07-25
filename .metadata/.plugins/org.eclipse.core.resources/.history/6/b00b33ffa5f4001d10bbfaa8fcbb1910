@@ -1,0 +1,22 @@
+package homework.ict.edu;
+
+public class Cao {
+public static void main(String[] args) {
+	
+	
+	int su1 = 90;
+	int su2 =80;
+	
+	boolean res = su1 >= su2;
+	System.out.println(res);
+	
+	double su3 = 89.999;
+	double su4 = 80.0;
+	
+	res = su1 >= su3;
+	System.out.println(res);
+	
+	
+	
+}
+}

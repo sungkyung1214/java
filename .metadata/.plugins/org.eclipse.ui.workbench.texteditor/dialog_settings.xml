@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="wrap" value="true"/>
+		<item key="casesensitive" value="true"/>
+		<item key="wholeword" value="false"/>
+		<item key="incremental" value="false"/>
+		<item key="isRegEx" value="false"/>
+		<item key="selection" value="back"/>
+		<list key="findhistory">
+			<item value="back"/>
+			<item value="소개"/>
+			<item value="강사등록"/>
+			<item value="src"/>
+			<item value="회원검색"/>
+			<item value="teanum"/>
+			<item value="테이블"/>
+			<item value="실패"/>
+			<item value="변경"/>
+			<item value="성공"/>
+			<item value="substring"/>
+			<item value="getValueAt "/>
+			<item value="DefaultTableMode"/>
+			<item value="elementAt"/>
+			<item value="Vector"/>
+		</list>
+		<list key="replacehistory">
+			<item value=""/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="1438"/>
+		<item key="DIALOG_Y_ORIGIN" value="270"/>
+		<item key="DIALOG_WIDTH" value="322"/>
+		<item key="DIALOG_HEIGHT" value="391"/>
+		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
+	</section>
+	<section name="org.eclipse.ui.texteditor.GotoLineAction$GotoLineDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="1044"/>
+		<item key="DIALOG_Y_ORIGIN" value="396"/>
+	</section>
+</section>

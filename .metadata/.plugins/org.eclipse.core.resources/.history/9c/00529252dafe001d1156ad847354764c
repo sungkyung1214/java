@@ -1,0 +1,84 @@
+package homework.ict.edu;
+
+import java.awt.BorderLayout;
+import java.awt.GridLayout;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.JScrollPane;
+import javax.swing.JTextArea;
+import javax.swing.JTextField;
+import javax.swing.ScrollPaneConstants;
+
+public class Hw0530 extends JFrame {
+	JPanel jp1, jp2, jp3, jp4, jp5;
+	JTextField jtf1, jtf2, jtf3, jtf4;
+	JTextArea jta;
+	JButton jb1, jb2, jb3, jb4, jb5, jb6;
+	JScrollPane jsp;
+
+	public Hw0530() {
+		super("DB 연동 정보");
+
+		jp1 = new JPanel(new GridLayout(4, 1, 5, 0));
+		jtf1 = new JTextField();
+		jtf2 = new JTextField();
+		jtf3 = new JTextField();
+		jtf4 = new JTextField();
+
+		JLabel jl1 = new JLabel(" CUSTID :");
+		jp1.add(jl1);
+		jl1.setHorizontalAlignment(JLabel.CENTER);
+		jp1.add(jtf1);
+
+		JLabel jl2 = new JLabel(" 	NAME :");
+		jp1.add(jl2);
+		jl2.setHorizontalAlignment(JLabel.CENTER);
+		jp1.add(jtf2);
+
+		JLabel jl3 = new JLabel(" 	ADDRESS :");
+		jp1.add(jl3);
+		jl3.setHorizontalAlignment(JLabel.CENTER);
+		jp1.add(jtf3);
+
+		JLabel jl4 = new JLabel(" 	PHONE :");
+		jp1.add(jl4);
+		jl4.setHorizontalAlignment(JLabel.CENTER);
+		jp1.add(jtf4);
+
+		jta = new JTextArea();
+		jsp = new JScrollPane(jta);
+		jta.setEditable(false);
+
+		jp3 = new JPanel();
+		jb1 = new JButton("전체보기");
+		jb2 = new JButton(" 삽입 ");
+		jb3 = new JButton(" 삭제 ");
+		jb4 = new JButton(" 검색 ");
+		jb5 = new JButton(" 불러오기 ");
+		jb6 = new JButton(" 고치기 ");
+		jb6.setEnabled(false);
+
+		jp3.add(jb1);
+		jp3.add(jb2);
+		jp3.add(jb3);
+		jp3.add(jb4);
+		jp3.add(jb5);
+		jp3.add(jb6);
+
+		add(jp1, BorderLayout.NORTH);
+		add(jsp, BorderLayout.CENTER);
+		add(jp3, BorderLayout.SOUTH);
+
+		setSize(500, 500);
+		setLocationRelativeTo(null);
+		setDefaultCloseOperation(EXIT_ON_CLOSE);
+		setVisible(true);
+	}
+
+	public static void main(String[] args) {
+		new Hw0530();
+	}
+}

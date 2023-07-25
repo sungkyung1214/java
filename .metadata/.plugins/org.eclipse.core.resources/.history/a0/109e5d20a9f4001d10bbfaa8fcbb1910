@@ -1,0 +1,27 @@
+package homework.ict.edu;
+
+public class Cao {
+public static void main(String[] args) {
+	// 3989초는 몇시간, 몇분 몇초인가
+	
+	int time = 3989;
+	int s =0;
+	int m =0;
+	int h =0;
+	int res = 0;
+	
+	
+	
+	h = time/(60*60);
+	res = time%(60*60);
+	m = res/60;
+	s= res%60;
+	
+	System.out.println(h);
+	System.out.println(m);
+	System.out.println(s);
+
+		 
+
+}
+}

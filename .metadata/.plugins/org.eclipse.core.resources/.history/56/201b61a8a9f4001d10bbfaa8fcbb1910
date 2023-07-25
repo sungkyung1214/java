@@ -1,0 +1,18 @@
+package homework.ict.edu;
+
+public class Cao {
+public static void main(String[] args) {
+	// 카페모카 6,500이다.
+			// 친구와 둘이서 15,000원을 내고 주문했다
+			// 잔돈은 얼마인가?(단, 부가세 10%포함)
+	
+	int moca = 6500;
+	double res= 0;
+	int money =15000;
+	
+	double sum = (moca*2)*1.1;
+	res= money - sum;
+		 System.out.println(res);
+
+}
+}

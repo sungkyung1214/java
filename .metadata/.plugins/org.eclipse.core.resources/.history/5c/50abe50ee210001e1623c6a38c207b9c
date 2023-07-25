@@ -1,0 +1,65 @@
+package com.ict.edu555;
+
+import java.awt.BorderLayout;
+import java.awt.Dimension;
+import java.awt.GridLayout;
+import java.awt.Toolkit;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.JTextArea;
+
+public class MainPage extends JFrame{
+	JButton point_bt,book_bt,attend_bt;
+	JPanel mainscreen, bt_panel;
+	JTextArea notice;
+	public MainPage() {
+		super("메인화면");
+		
+		
+		notice = new JTextArea();
+		mainscreen = new JPanel();
+		mainscreen.setLayout(new BorderLayout());
+		point_bt = new JButton(" 포인트 충전 ");
+		book_bt = new JButton(" 수업 예약 ");
+		attend_bt = new JButton(" 출결 체크 ");
+		bt_panel = new JPanel(new GridLayout(3,1,25,25));
+		
+		
+		//포인트 충전, 수업 예약, 출결체크
+		
+		mainscreen.add(notice, new BorderLayout().CENTER);
+		
+		
+		bt_panel.add(point_bt);
+		bt_panel.add(book_bt);
+		bt_panel.add(attend_bt);
+		
+		
+		mainscreen.add(bt_panel,new BorderLayout().SOUTH);
+		
+		
+		
+		add(mainscreen);
+		
+		
+		setVisible(true);
+		setDefaultCloseOperation(EXIT_ON_CLOSE);
+		setSize(500, 800);
+		setLocationRelativeTo(null);
+		setResizable(false);
+	
+	
+		
+		
+		
+		
+	}
+
+	public static void main(String[] args) {
+	new MainPage();
+
+	}
+
+}

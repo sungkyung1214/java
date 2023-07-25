@@ -1,0 +1,23 @@
+package homework.ict.edu;
+
+public class Cao {
+public static void main(String[] args) {
+	
+	
+	
+	int su1 = 9;
+	int su2 = 4;
+	int result = 0;
+	result = su1 / su2 ;
+    System.out.println("결과 : " + result);
+    
+	double res = su1/su2;
+	System.out.println(res);//2.0
+	
+	res = (double)(su1) /su2;
+	System.out.println(res);//2.25
+	
+	res = (double)su1/(su2);
+	System.out.println(res);//2.25
+}
+}

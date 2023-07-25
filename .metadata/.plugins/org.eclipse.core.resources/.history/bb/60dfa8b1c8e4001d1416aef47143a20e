@@ -1,0 +1,20 @@
+package com.ict.edu2;
+
+public class Test03 {
+	public static void main(String[] args) {
+		// 3989초는 몇시간, 몇분 몇초인가
+	
+	int su1= 3989;
+	double su2 = su1/60.0; //몇분 몇초로 나오게 할려면 실수
+			
+	
+	
+	
+	
+	System.out.println(su2);
+	
+	
+	
+	
+	}
+}

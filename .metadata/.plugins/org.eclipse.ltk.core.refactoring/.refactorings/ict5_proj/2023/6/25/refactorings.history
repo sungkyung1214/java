@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.ict5.client.MainPage&apos; to &apos;Home&apos;&#x0D;&#x0A;- Original project: &apos;ict5_proj&apos;&#x0D;&#x0A;- Original element: &apos;com.ict5.client.MainPage&apos;&#x0D;&#x0A;- Renamed element: &apos;com.ict5.client.Home&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;MainPage&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.ict5.client{MainPage.java[MainPage" matchStrategy="1" name="Home" qualified="false" references="true" similarDeclarations="false" stamp="1687514361263" textual="false" version="1.0"/>
+</session>

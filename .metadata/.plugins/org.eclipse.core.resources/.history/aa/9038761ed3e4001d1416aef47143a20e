@@ -1,0 +1,22 @@
+package com.ict.edu2;
+
+public class Test02 {
+	public static void main(String[] args) {
+		//2시간30분 30초는 몇초일까요?
+		
+		
+		int su1= 2;
+		int su2= 30;
+		int su3 =30;
+		
+	  su1= 2*60*60;
+      su2 =30*60 ;
+      
+      int sum = su1 + su2 + su3;
+      System.out.println(sum+"초");
+
+	 
+				
+			
+	}
+}

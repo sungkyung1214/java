@@ -1,0 +1,19 @@
+package homework.ict.edu;
+
+public class Cao {
+public static void main(String[] args) {
+	
+	
+	
+	int su1 = 9;
+	int su2 = 4;
+	int result = 0;
+	
+	
+	System.out.println(++su1);
+	System.out.println(su1++);
+	
+	System.out.println(su1);
+	System.out.println(su2);
+}
+}

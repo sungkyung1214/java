@@ -1,0 +1,11 @@
+INDEX VERSION 1.132+D:\ksk\javastudy\.metadata\.plugins\org.eclipse.jdt.core
+126814995.index
+3261088719.index
+3437290560.index
+1805469607.index
+2603447019.index
+704277791.index
+1209337316.index
+1865797976.index
+1674529086.index
+4192467989.index

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 4 elements to &apos;javastudy/src/day05.com.ict.edu&apos;&#x0D;&#x0A;- Original project: &apos;DAY05&apos;&#x0D;&#x0A;- Destination element: &apos;javastudy/src/day05.com.ict.edu&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     com.ict.edu.Ex01_switch.java&#x0D;&#x0A;     com.ict.edu.Ex04_while.java&#x0D;&#x0A;     com.ict.edu.Ex02_for.java&#x0D;&#x0A;     com.ict.edu.Ex03_for2.java" description="Copy compilation units" destination="=javastudy/src&lt;day05.com.ict.edu" element1="/src&lt;com.ict.edu{Ex01_switch.java" element2="/src&lt;com.ict.edu{Ex04_while.java" element3="/src&lt;com.ict.edu{Ex02_for.java" element4="/src&lt;com.ict.edu{Ex03_for2.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1684744399314" units="4" version="1.0"/>
+</session>

@@ -1,0 +1,32 @@
+package homework.ict.edu;
+
+public class Cao {
+public static void main(String[] args) {
+	int su = 3781 ;
+	
+
+	//결과
+	//천의자리 : 3
+	//백의자리 : 7
+	//십의자리 : 8
+	//일의자리 : 1
+	
+	int c = 0;
+	int b =0;
+	int s= 0;
+	int y =0;
+	int res = 0;
+	
+	c = su/1000; //3
+	res = su%1000; //781
+	b = res/100; // 7
+	res = b%100;// 81
+	System.out.println(b);
+	System.out.println("======");
+	s= res/10;// 8
+	y= res%10;
+	
+
+	
+}
+}

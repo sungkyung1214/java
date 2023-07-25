@@ -1,0 +1,96 @@
+package com.ict.edu555;
+
+import java.awt.BorderLayout;
+import java.awt.Dimension;
+import java.awt.GridLayout;
+import java.awt.Label;
+import java.awt.Toolkit;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.JScrollPane;
+import javax.swing.JTextArea;
+import javax.swing.JTextField;
+
+public class MainPage extends JFrame{
+	JButton point_bt,book_bt,attend_bt;
+	JPanel main, first, second, last;
+	JTextArea notice, class_notice;
+	public MainPage() {
+		super("메인화면");
+		
+		main = new JPanel();
+		
+		first = new JPanel();
+	    notice = new JTextArea(15,40);
+		notice.setLineWrap(true); // 자동 줄 바꿈 jta 는 무조건 jscrollpane 과 짝궁
+		notice.setEditable(false);
+		JScrollPane jsp = new JScrollPane(notice,
+				JScrollPane.VERTICAL_SCROLLBAR_ALWAYS,
+				JScrollPane.HORIZONTAL_SCROLLBAR_NEVER);
+		first.add(new JLabel(" 공    지    사    항 "));
+		first.add(notice);
+		
+		second = new JPanel();
+		class_notice =new JTextArea(10,40);
+		class_notice.setLineWrap(true); // 자동 줄 바꿈 jta 는 무조건 jscrollpane 과 짝궁
+		class_notice.setEditable(false);
+		JScrollPane jsp2 = new JScrollPane(class_notice,
+				JScrollPane.VERTICAL_SCROLLBAR_ALWAYS,
+				JScrollPane.HORIZONTAL_SCROLLBAR_NEVER);
+		second.add(new JLabel(" 가장 가까운 수업 "));
+		second.add(class_notice);
+		
+		
+		
+		
+		
+		
+		main.setLayout(new BorderLayout());
+
+		
+		last = new JPanel(new GridLayout(3,1,25,25));
+		point_bt = new JButton(" 포인트 충전 ");
+		book_bt = new JButton(" 수업 예약 ");
+		attend_bt = new JButton(" 출결 체크 ");
+		
+		
+		//포인트 충전, 수업 예약, 출결체크
+		main.add(first,new BorderLayout().SOUTH);
+	    main.add(second,new BorderLayout().CENTER);
+		///main.add(notice, new BorderLayout().NORTH);
+		//main.add(class_notice, new BorderLayout().CENTER);
+		
+		last.add(point_bt);
+		last.add(book_bt);
+		last.add(attend_bt);
+		
+		
+		main.add(last,new BorderLayout().SOUTH);
+		
+		
+		
+		add(main);
+		
+		
+		setVisible(true);
+		setDefaultCloseOperation(EXIT_ON_CLOSE);
+		setSize(500, 800);
+		setLocationRelativeTo(null);
+		setResizable(false);
+	
+	
+		
+		
+		
+		
+	}
+
+	public static void main(String[] args) {
+	new MainPage();
+
+	}
+
+}

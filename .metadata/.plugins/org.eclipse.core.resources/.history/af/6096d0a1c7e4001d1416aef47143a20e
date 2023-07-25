@@ -1,0 +1,7 @@
+package com.ict.edu2;
+
+public class Test02 {
+	public static void main(String[] args) {
+		//2시간30분 30초는 몇초일까요?
+	}
+}
